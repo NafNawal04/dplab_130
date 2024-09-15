@@ -37,4 +37,9 @@ public class Driver {
     {
 
     }
+
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
 }

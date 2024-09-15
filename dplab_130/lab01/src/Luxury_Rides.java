@@ -1,10 +1,17 @@
-public class Luxury_Rides implements RideType {
-    public int calculateFare()
-    {
-        return 0;
+public class Luxury_Rides extends RideType {
+    public Luxury_Rides(double distance, double costPerDistance) {
+        super(distance, costPerDistance);
     }
-    public void assignDriver()
-    {
 
+    public double calculateFare()
+    {
+        return distance * costPerDistance;
+    }
+    public void assignDriver(Driver driver)
+    {
+        if(driver.getVehicleType().equals(VehicleType.Luxury))
+        {
+            System.out.println("Luxury Car is booked");
+        }
     }
 }
