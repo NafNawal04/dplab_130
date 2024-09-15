@@ -26,8 +26,7 @@ public class Rider {
 
     }
 
-    public void makePayment()
-    {
-
+    public void makePayment(double amount) {
+        preferredPaymentMethod.processPayment(amount);
     }
 }

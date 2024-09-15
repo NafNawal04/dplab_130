@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Bike_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Bike_Rides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Carpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Carpool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Credit_Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Credit_Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Digital_Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Digital_Wallet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab01/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Luxury_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Luxury_Rides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/RideType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/RideType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Paypal.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Paypal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Rider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726416647853</updated>
-      <workItem from="1726416648657" duration="2412000" />
+      <workItem from="1726416648657" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -74,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726417341414</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed RideType subclasses">
+      <option name="closed" value="true" />
+      <created>1726419363559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726419363559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added all the base classes (completed in lab)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all the base classes (completed in lab)" />
+    <MESSAGE value="Completed RideType subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed RideType subclasses" />
   </component>
 </project>

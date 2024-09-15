@@ -7,11 +7,11 @@ public class Driver {
     public VehicleType vehicleType;
     public boolean availability;
 
-    public Driver(String id, String name, VehicleType vehicleType, boolean availability)
+    public Driver(String id, String name,String location, VehicleType vehicleType, boolean availability)
     {
         this.id = id;
         this.name = name;
-        this.location = null;
+        this.location = location;
         this.rating = 0;
         this.vehicleType = vehicleType;
         this.availability = availability;
@@ -23,14 +23,13 @@ public class Driver {
 
     }
 
-    public void rateRider()
+    public void rateRider(Rider rider, int rating)
     {
 
     }
 
-    public void updateLocation()
-    {
-
+    public void updateLocation(String newLocation) {
+        this.location = newLocation;
     }
 
     public void startTrip()
