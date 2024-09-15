@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Credit_Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Credit_Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Digital_Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Digital_Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Paypal.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Paypal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Rider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726416647853</updated>
-      <workItem from="1726416648657" duration="3906000" />
+      <workItem from="1726416648657" duration="4319000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -82,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726419363559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed PaymentMethod and its subclasses">
+      <option name="closed" value="true" />
+      <created>1726420615646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726420615646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added all the base classes (completed in lab)" />
     <MESSAGE value="Completed RideType subclasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed RideType subclasses" />
+    <MESSAGE value="Completed PaymentMethod and its subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed PaymentMethod and its subclasses" />
   </component>
 </project>
