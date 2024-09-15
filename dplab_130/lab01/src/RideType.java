@@ -10,6 +10,6 @@ public abstract class RideType {
 
 
     public abstract double calculateFare();
-    public abstract void assignDriver(Driver driver);
+    public abstract boolean assignDriver(Driver driver);
 
 }

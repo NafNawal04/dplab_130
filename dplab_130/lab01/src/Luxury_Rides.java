@@ -7,11 +7,14 @@ public class Luxury_Rides extends RideType {
     {
         return distance * costPerDistance;
     }
-    public void assignDriver(Driver driver)
+    public boolean assignDriver(Driver driver)
     {
         if(driver.getVehicleType().equals(VehicleType.Luxury))
         {
             System.out.println("Luxury Car is booked");
+            return true;
         }
+        else
+            return false;
     }
 }

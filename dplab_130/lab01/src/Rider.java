@@ -1,12 +1,12 @@
 public class Rider {
-    public String id;
+    public int id;
     public String name;
     public String location;
     public int rating;
     public PaymentMethod preferredPaymentMethod;
 
 
-    public Rider(String id, String name, PaymentMethod preferredPaymentMethod)
+    public Rider(int id, String name, PaymentMethod preferredPaymentMethod)
     {
         this.id = id;
         this.name = name;

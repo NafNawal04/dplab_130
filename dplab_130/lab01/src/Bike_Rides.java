@@ -8,11 +8,14 @@ public class Bike_Rides extends RideType {
     {
         return distance * costPerDistance;
     }
-    public void assignDriver(Driver driver)
+    public boolean assignDriver(Driver driver)
     {
         if(driver.getVehicleType().equals(VehicleType.Bike))
         {
             System.out.println("Bike is booked");
+            return true;
         }
+        else
+            return false;
     }
 }

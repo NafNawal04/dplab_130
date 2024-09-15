@@ -7,11 +7,14 @@ public class Carpool extends RideType {
     {
         return distance * costPerDistance;
     }
-    public void assignDriver(Driver driver)
+    public boolean assignDriver(Driver driver)
     {
         if(driver.getVehicleType().equals(VehicleType.Car))
         {
             System.out.println("Car is booked");
+            return true;
         }
+        else
+            return false;
     }
 }

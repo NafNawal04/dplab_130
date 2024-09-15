@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Bike_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Bike_Rides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Carpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Carpool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/InAppNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/InAppNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Luxury_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Luxury_Rides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/RideType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/RideType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Rider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/SmsNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/SmsNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Trip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726416647853</updated>
-      <workItem from="1726416648657" duration="4319000" />
+      <workItem from="1726416648657" duration="5034000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -85,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726420615646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Notification Service and its subclasses">
+      <option name="closed" value="true" />
+      <created>1726421024562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726421024562</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Completed Notification Service and its subclasses">
+      <option name="closed" value="true" />
+      <created>1726421034797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726421034797</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +121,7 @@
     <MESSAGE value="Added all the base classes (completed in lab)" />
     <MESSAGE value="Completed RideType subclasses" />
     <MESSAGE value="Completed PaymentMethod and its subclasses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed PaymentMethod and its subclasses" />
+    <MESSAGE value="Completed Notification Service and its subclasses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Notification Service and its subclasses" />
   </component>
 </project>

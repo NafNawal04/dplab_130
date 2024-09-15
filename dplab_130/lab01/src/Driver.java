@@ -1,13 +1,13 @@
 public class Driver {
 
-    public String id;
+    public int id;
     public String name;
     public String location;
     public int rating;
     public VehicleType vehicleType;
     public boolean availability;
 
-    public Driver(String id, String name,String location, VehicleType vehicleType, boolean availability)
+    public Driver(int id, String name,String location, VehicleType vehicleType, boolean availability)
     {
         this.id = id;
         this.name = name;
