@@ -37,6 +37,15 @@ public class Trip {
     }
 
 
+
+    public void startTrip() {
+        this.status = "STARTED";
+        notificationService.sendNotification("Trip started");
+        System.out.println("Trip from " + pickupLocation + " to " + dropOffLocation + " has started.");
+    }
+
+
+
     public void completeTrip() {
         this.status = "Completed";
         rider.makePayment(fare);
@@ -44,5 +53,18 @@ public class Trip {
         notificationService.sendNotification("Trip completed successfully.");
     }
 
+
+
+    public double getFare() {
+        return fare;
+    }
+
+    public double getId() {
+        return id;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 
 }
