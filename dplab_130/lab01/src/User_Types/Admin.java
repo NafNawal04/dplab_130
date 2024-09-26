@@ -1,6 +1,8 @@
 package User_Types;
 import java.util.List;
 
+
+@SuppressWarnings("unused")
 public class Admin {
     public String id;
     public String name;

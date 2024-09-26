@@ -17,14 +17,14 @@ public class Rider {
     {
         this.id = nextId ++;
         this.name = name;
+        this.location = null;
         this.rating = 0;
         this.preferredPaymentMethod =preferredPaymentMethod;
     }
 
-    public Trip requestRide(RideType rideType, String pickupLocation, String dropOffLocation, double distance, NotificationService notificationService) {
-        System.out.println(name + " requested a " + rideType.getClass().getSimpleName()
-                + " ride from " + pickupLocation + " to " + dropOffLocation);
-        return new Trip(this, rideType, distance);
+    public Trip requestRide(Rider rider,RideType rideType, double distance) {
+        System.out.println(name + " requested a " + rideType.getClass().getSimpleName());
+        return new Trip(rider, rideType, distance);
     }
 
 

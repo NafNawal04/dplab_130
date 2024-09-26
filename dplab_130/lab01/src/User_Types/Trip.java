@@ -3,6 +3,9 @@ package User_Types;
 import Notification_Service.NotificationService;
 import Ride_Types.RideType;
 
+
+@SuppressWarnings("unused")
+
 public class Trip {
     public int id=0;
     public Rider rider;
@@ -22,20 +25,32 @@ public class Trip {
         this.id = this.id +1;
         this.rider = rider;
         this.rideType = rideType;
+        this.pickupLocation = rider.location;
         this.distance = distance;
     }
 
 
-    public void assignDriver(Driver driver) {
-        if (rideType.assignDriver(driver)) {
-            this.driver = driver;
-            this.status = "Driver assigned";
-            notificationService.sendNotification("Your driver has been assigned.");
-            notificationService.sendNotification("You have been assigned a trip.");
-        } else {
+    public void setDropOffLocation(String dropOffLocation) {
+        this.dropOffLocation = dropOffLocation;
+        System.out.println("DropOff location set to: " + this.dropOffLocation);
+    }
+
+    public void assignDriver(Driver[] drivers) {
+        for (Driver driver : drivers)
+        {
+            if (driver.location.equals(this.dropOffLocation) && driver.availability)
+            {
+                this.driver = driver;
+                this.status = "Driver assigned";
+                driver.availability = false;
+                notificationService.sendNotification("Your driver " + driver.getName() + " has been assigned.");
+                return;
+            }
+        }
+
             this.status = "No suitable driver found";
             notificationService.sendNotification("No drivers available for your ride.");
-        }
+
     }
 
 

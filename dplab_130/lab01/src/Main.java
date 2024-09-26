@@ -87,11 +87,7 @@ public class Main {
         Rider rider = new Rider(riderName, paymentMethod);
         System.out.println("Rider created successfully with ID: " + rider.getId());
 
-        System.out.println("Enter Pickup Location:");
-        String pickupLocation = scanner.nextLine();
 
-        System.out.println("Enter Drop-Off Location:");
-        String dropOffLocation = scanner.nextLine();
 
         System.out.println("Enter Distance (in kilometers):");
         double distance = scanner.nextDouble();
@@ -114,7 +110,7 @@ public class Main {
 
         RideType selectedRideType = chooseRideType(scanner, distance);
 
-        Trip trip = rider.requestRide(selectedRideType, pickupLocation, dropOffLocation, distance, notificationService);
+        Trip trip = rider.requestRide(rider,selectedRideType, distance);
         System.out.println("Fare for the ride: " + trip.getFare());
 
 

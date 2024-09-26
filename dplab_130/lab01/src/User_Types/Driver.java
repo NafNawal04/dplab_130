@@ -2,6 +2,7 @@ package User_Types;
 
 import Vehicle_Types.VehicleType;
 
+@SuppressWarnings("unused")
 public class Driver {
 
     public static int nextId = 1;
@@ -24,9 +25,9 @@ public class Driver {
 
 
     public void acceptRide(Trip trip) {
-        if (availability) {
+        if (availability && trip.dropOffLocation != null) {
             System.out.println(name + " has accepted the trip.");
-            trip.assignDriver(this);
+            trip.assignDriver(new Driver[]{this});
             this.availability = false;
         } else {
             System.out.println(name + " is not available.");
