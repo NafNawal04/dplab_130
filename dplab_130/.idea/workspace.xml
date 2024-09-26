@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/RideType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Bike_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Bike_Rides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Carpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Carpool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Credit_Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/Credit_Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Digital_Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/Digital_Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/InAppNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Notification_Service/InAppNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Luxury_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Luxury_Rides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Notification_Service/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Paypal.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/Paypal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/RideType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/SmsNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Notification_Service/SmsNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Trip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Vehicle_Types/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/Bike_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Bike_Rides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/Carpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Carpool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/Luxury_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Luxury_Rides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/RideType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/RideType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Rider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Trip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
       <workItem from="1726786001106" duration="6572000" />
       <workItem from="1727068710722" duration="97000" />
       <workItem from="1727352753519" duration="1475000" />
-      <workItem from="1727356156134" duration="6137000" />
+      <workItem from="1727356156134" duration="7419000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -143,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726422810864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Changed the ridetype interface and formatted in strategy pattern.">
+      <option name="closed" value="true" />
+      <created>1727365178346</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727365178346</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +154,8 @@
     <MESSAGE value="Completed Notification Service and its subclasses" />
     <MESSAGE value="Completed Trip Class" />
     <MESSAGE value="Created Admin Class and completed the rider and driver class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Admin Class and completed the rider and driver class" />
+    <MESSAGE value="Changed the ridetype interface and formatted in strategy pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the ridetype interface and formatted in strategy pattern." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
