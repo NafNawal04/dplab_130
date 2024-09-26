@@ -1,3 +1,4 @@
+package User_Types;
 import java.util.List;
 
 public class Admin {
@@ -24,9 +25,11 @@ public class Admin {
     }
 
 
-    public void viewTripHistory(List<Trip> trips) {
+    public void viewTripHistory(List<Trip> trips)
+    {
 
-        for (Trip trip : trips) {
+        for (Trip trip : trips)
+        {
             System.out.println("Trip ID: " + trip.getId() + ", Status: " + trip.getStatus() + ", Fare: " + trip.getFare());
         }
     }

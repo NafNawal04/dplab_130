@@ -1,4 +1,11 @@
+package User_Types;
+
+import Notification_Service.NotificationService;
+import Payment_Method.PaymentMethod;
+import Ride_Types.RideType;
+
 public class Rider {
+    public static int nextId = 1;
     public int id;
     public String name;
     public String location;
@@ -6,11 +13,10 @@ public class Rider {
     public PaymentMethod preferredPaymentMethod;
 
 
-    public Rider(int id, String name, PaymentMethod preferredPaymentMethod)
+    public Rider(String name, PaymentMethod preferredPaymentMethod)
     {
-        this.id = id;
+        this.id = nextId ++;
         this.name = name;
-        this.location = null;
         this.rating = 0;
         this.preferredPaymentMethod =preferredPaymentMethod;
     }
@@ -18,9 +24,13 @@ public class Rider {
     public Trip requestRide(RideType rideType, String pickupLocation, String dropOffLocation, double distance, NotificationService notificationService) {
         System.out.println(name + " requested a " + rideType.getClass().getSimpleName()
                 + " ride from " + pickupLocation + " to " + dropOffLocation);
-        return new Trip(this, rideType, pickupLocation, dropOffLocation, distance, notificationService);
+        return new Trip(this, rideType, distance);
     }
 
+
+    public void updateLocation(String newLocation) {
+        this.location = newLocation;
+    }
 
     public void rateDriver(Driver driver, int rating) {
         System.out.println("Rider " + name + " rated driver " + driver.getName() + " with a rating of " + rating);

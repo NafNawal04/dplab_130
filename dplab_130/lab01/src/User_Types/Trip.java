@@ -1,3 +1,8 @@
+package User_Types;
+
+import Notification_Service.NotificationService;
+import Ride_Types.RideType;
+
 public class Trip {
     public int id=0;
     public Rider rider;
@@ -12,15 +17,12 @@ public class Trip {
     public NotificationService notificationService;
 
 
-    public Trip(Rider rider, RideType rideType, String pickupLocation, String dropOffLocation, double distance, NotificationService notificationService) {
+    public Trip(Rider rider, RideType rideType, double distance)
+    {
         this.id = this.id +1;
         this.rider = rider;
         this.rideType = rideType;
-        this.pickupLocation = pickupLocation;
-        this.dropOffLocation = dropOffLocation;
         this.distance = distance;
-        this.notificationService = notificationService;
-        this.fare = rideType.calculateFare();
     }
 
 

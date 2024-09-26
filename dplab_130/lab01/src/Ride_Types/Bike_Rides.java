@@ -1,12 +1,11 @@
-public class Bike_Rides extends RideType {
+package Ride_Types;
+import User_Types.Driver;
+import Vehicle_Types.VehicleType;
+public class Bike_Rides implements RideType {
 
-    public Bike_Rides(double distance, double costPerDistance) {
-        super(distance, costPerDistance);
-    }
-
-    public double calculateFare()
+    public double calculateFare(double distance)
     {
-        return distance * costPerDistance;
+        return distance * 5;
     }
     public boolean assignDriver(Driver driver)
     {

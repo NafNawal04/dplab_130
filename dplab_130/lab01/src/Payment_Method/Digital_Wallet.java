@@ -1,3 +1,4 @@
+package Payment_Method;
 public class Digital_Wallet implements PaymentMethod{
     public String walletHolderName;
     public Digital_Wallet(String walletHolderName){

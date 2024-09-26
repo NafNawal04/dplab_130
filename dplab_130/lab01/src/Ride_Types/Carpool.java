@@ -1,11 +1,10 @@
-public class Carpool extends RideType {
-    public Carpool(double distance, double costPerDistance) {
-        super(distance, costPerDistance);
-    }
-
-    public double calculateFare()
+package Ride_Types;
+import User_Types.Driver;
+import Vehicle_Types.VehicleType;
+public class Carpool implements RideType {
+    public double calculateFare(double distance)
     {
-        return distance * costPerDistance;
+        return distance;
     }
     public boolean assignDriver(Driver driver)
     {

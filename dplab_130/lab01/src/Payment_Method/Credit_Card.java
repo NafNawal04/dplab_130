@@ -1,3 +1,4 @@
+package Payment_Method;
 public class Credit_Card implements PaymentMethod{
     public String cardHolderName;
     public int cardNumber;

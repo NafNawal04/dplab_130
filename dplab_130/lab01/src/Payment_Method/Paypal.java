@@ -1,3 +1,4 @@
+package Payment_Method;
 public class Paypal implements PaymentMethod{
 
     public String accountHolderName;

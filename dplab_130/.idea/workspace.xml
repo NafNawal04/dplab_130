@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/RideType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Bike_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Bike_Rides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Carpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Carpool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Credit_Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/Credit_Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Digital_Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/Digital_Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/InAppNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Notification_Service/InAppNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Luxury_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Luxury_Rides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Notification_Service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Paypal.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Payment_Method/Paypal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/RideType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Rider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/SmsNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Notification_Service/SmsNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab01/src/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Vehicle_Types/VehicleType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +42,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2m79Fh6BybXtvCvvvR2Lq4Xq5dO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -46,11 +61,15 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "20",
+    "last_directory_selection": "C:/Users/User/Desktop/5th Semester/DP SWE 4501/dplab_130/lab01/src",
     "last_opened_file_path": "C:/Users/User/Desktop/5th Semester/DP SWE 4501/DP Lab_210042130",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,7 +81,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726416647853</updated>
-      <workItem from="1726416648657" duration="5975000" />
+      <workItem from="1726416648657" duration="6115000" />
+      <workItem from="1726786001106" duration="6572000" />
+      <workItem from="1727068710722" duration="97000" />
+      <workItem from="1727352753519" duration="1475000" />
+      <workItem from="1727356156134" duration="6137000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -112,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726421751692</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created Admin Class and completed the rider and driver class">
+      <option name="closed" value="true" />
+      <created>1726422810864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726422810864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +155,17 @@
     <MESSAGE value="Completed PaymentMethod and its subclasses" />
     <MESSAGE value="Completed Notification Service and its subclasses" />
     <MESSAGE value="Completed Trip Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Trip Class" />
+    <MESSAGE value="Created Admin Class and completed the rider and driver class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Admin Class and completed the rider and driver class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lab01/src/Notification_Service/SmsNotification.java</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

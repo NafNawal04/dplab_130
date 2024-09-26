@@ -1,11 +1,14 @@
-public class Luxury_Rides extends RideType {
-    public Luxury_Rides(double distance, double costPerDistance) {
-        super(distance, costPerDistance);
-    }
+package Ride_Types;
 
-    public double calculateFare()
+import User_Types.Driver;
+import Vehicle_Types.VehicleType;
+
+
+public class Luxury_Rides implements RideType {
+
+    public double calculateFare(double distance)
     {
-        return distance * costPerDistance;
+        return distance * 7;
     }
     public boolean assignDriver(Driver driver)
     {

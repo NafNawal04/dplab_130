@@ -1,5 +1,10 @@
+package User_Types;
+
+import Vehicle_Types.VehicleType;
+
 public class Driver {
 
+    public static int nextId = 1;
     public int id;
     public String name;
     public String location;
@@ -7,12 +12,12 @@ public class Driver {
     public VehicleType vehicleType;
     public boolean availability;
 
-    public Driver(int id, String name,String location,int rating, VehicleType vehicleType, boolean availability)
+    public Driver(String name, VehicleType vehicleType, boolean availability)
     {
-        this.id = id;
+        this.id = nextId++;
         this.name = name;
-        this.location = location;
-        this.rating = rating;
+        this.location = null;
+        this.rating = 0;
         this.vehicleType = vehicleType;
         this.availability = availability;
     }
