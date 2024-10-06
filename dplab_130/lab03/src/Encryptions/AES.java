@@ -1,3 +1,6 @@
+package Encryptions;
+import EncryptionFactory.*;
+
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
@@ -8,7 +11,7 @@ import java.io.FileOutputStream;
 
 
 
-public class AES implements EncryptionAlgorithm{
+public class AES implements IEncryptionAlgorithm{
 
     private SecretKey key;
     private Cipher encryptionCipher;

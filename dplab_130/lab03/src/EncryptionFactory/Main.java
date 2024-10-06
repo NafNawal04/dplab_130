@@ -1,3 +1,7 @@
+package EncryptionFactory;
+import Encryptions.*;
+
+
 import java.util.Scanner;
 
 public class Main {

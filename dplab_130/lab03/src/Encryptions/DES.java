@@ -1,3 +1,6 @@
+package Encryptions;
+import EncryptionFactory.IEncryptionAlgorithm;
+
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
@@ -6,7 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class DES implements EncryptionAlgorithm{
+public class DES implements IEncryptionAlgorithm {
 
     private SecretKey key;
     private Cipher encryptionCipher;

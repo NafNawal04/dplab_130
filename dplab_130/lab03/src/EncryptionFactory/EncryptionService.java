@@ -1,6 +1,7 @@
+package EncryptionFactory;
 public class EncryptionService {
-    public EncryptionAlgorithm algorithm;
-    public void setAlgorithm(EncryptionAlgorithm algorithm)
+    public IEncryptionAlgorithm algorithm;
+    public void setAlgorithm(IEncryptionAlgorithm algorithm)
     {
         this.algorithm = algorithm;
     }

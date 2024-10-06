@@ -1,4 +1,5 @@
-public interface EncryptionAlgorithm {
+package EncryptionFactory;
+public interface IEncryptionAlgorithm {
 
 
     void encryptFile(String inputFilePath, String outputFilePath) throws Exception;

@@ -1,9 +1,12 @@
+package Encryptions;
+import EncryptionFactory.IEncryptionAlgorithm;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 
-public class CaesarCipher implements EncryptionAlgorithm{
+public class CaesarCipher implements IEncryptionAlgorithm {
     private int shift;
 
     public CaesarCipher(int shift) {
