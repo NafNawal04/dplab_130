@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lab01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/Bike_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Bike_Rides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/Carpool.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Carpool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/Luxury_Rides.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/Luxury_Rides.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/Ride_Types/RideType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/Ride_Types/RideType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab01/src/User_Types/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab01/src/User_Types/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplab_130.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dplab_130.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +36,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_directory_selection": "C:/Users/User/Desktop/5th Semester/DP SWE 4501/dplab_130/lab01/src",
-    "last_opened_file_path": "C:/Users/User/Desktop/5th Semester/DP SWE 4501/DP Lab_210042130",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/User/Desktop/5th Semester/DP SWE 4501/dplab_130/lab01/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/5th Semester/DP SWE 4501/DP Lab_210042130&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +68,9 @@
       <workItem from="1726786001106" duration="6572000" />
       <workItem from="1727068710722" duration="97000" />
       <workItem from="1727352753519" duration="1475000" />
-      <workItem from="1727356156134" duration="7419000" />
+      <workItem from="1727356156134" duration="8798000" />
+      <workItem from="1727412624294" duration="85000" />
+      <workItem from="1728213557421" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -141,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727365178346</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed trip class">
+      <option name="closed" value="true" />
+      <created>1727366359838</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727366359838</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixed trip class">
+      <option name="closed" value="true" />
+      <created>1727366375157</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727366375157</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +166,8 @@
     <MESSAGE value="Completed Trip Class" />
     <MESSAGE value="Created Admin Class and completed the rider and driver class" />
     <MESSAGE value="Changed the ridetype interface and formatted in strategy pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the ridetype interface and formatted in strategy pattern." />
+    <MESSAGE value="Fixed trip class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed trip class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
