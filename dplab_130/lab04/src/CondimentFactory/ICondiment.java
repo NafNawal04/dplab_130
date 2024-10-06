@@ -1,6 +1,6 @@
 package CondimentFactory;
-import BeverageFactory.IBeverage;
 
 public interface ICondiment {
-    IBeverage decorate(IBeverage beverage);
+   String getCondimentDescription(String info);
+   double condimentCost();
 }

@@ -1,25 +1,13 @@
 package CondimentFactory;
-import BeverageFactory.IBeverage;
 
 public class Milk implements ICondiment{
-    public IBeverage beverage;
-
-    public Milk(IBeverage beverage)
+    public String getCondimentDescription(String info)
     {
-        this.beverage = beverage;
+        return info + "\nMilk is added.";
     }
 
-    public IBeverage decorate(IBeverage beverage)
+    public double condimentCost()
     {
-        this.beverage = beverage;
-        return beverage;
-    }
-
-    public String getDescription() {
-        return beverage.getDescription() + ", Milk";
-    }
-
-    public double cost() {
-        return 0.30 + beverage.cost();
+        return 0.99;
     }
 }

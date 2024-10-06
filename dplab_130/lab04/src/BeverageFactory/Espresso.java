@@ -1,7 +1,7 @@
 package BeverageFactory;
 public class Espresso implements IBeverage{
-    public String getDescription() {
-        return "Espresso";
+    public String getBeverageDescription(String info) {
+        return info + "\nEspresso has been ordered.";
     }
 
     public double cost()

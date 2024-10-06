@@ -1,10 +1,10 @@
 package BeverageFactory;
 public class Latte implements IBeverage{
-    public String getDescription() {
-        return "Latte";
+    public String getBeverageDescription(String info) {
+        return info + "\nLatte has been ordered.";
     }
 
     public double cost() {
-        return 1.99;
+        return 2.99;
     }
 }

@@ -1,5 +1,5 @@
 package BeverageFactory;
 public interface IBeverage {
-    String getDescription();
+    String getBeverageDescription(String info);
     double cost();
 }
