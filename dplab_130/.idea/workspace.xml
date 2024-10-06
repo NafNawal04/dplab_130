@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lab04/src/MainFactory/BeverageDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/Encryptions/AES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/Encryptions/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/DES.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/Encryptions/DES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/EncryptionAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/EncryptionFactory/IEncryptionAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/EncryptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/EncryptionFactory/EncryptionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab03/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/src/EncryptionFactory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/BeverageFactory/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/BeverageFactory/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/BeverageFactory/IBeverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/BeverageFactory/IBeverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/BeverageFactory/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/BeverageFactory/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/CondimentFactory/ICondiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/CondimentFactory/ICondiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/CondimentFactory/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/CondimentFactory/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/CondimentFactory/WhippedCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/CondimentFactory/WhippedCream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/CondimentFactory/WhiteSugar.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/CondimentFactory/WhiteSugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/MainFactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab04/src/MainFactory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04/src/MainFactory/MappingFactory.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +79,7 @@
       <workItem from="1727352753519" duration="1475000" />
       <workItem from="1727356156134" duration="8798000" />
       <workItem from="1727412624294" duration="85000" />
-      <workItem from="1728213557421" duration="1365000" />
+      <workItem from="1728213557421" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -165,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728213943353</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Applied factory pattern to lab3">
+      <option name="closed" value="true" />
+      <created>1728215153706</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728215153706</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +193,8 @@
     <MESSAGE value="Changed the ridetype interface and formatted in strategy pattern." />
     <MESSAGE value="Fixed trip class" />
     <MESSAGE value="Added the lab3 and lab4 contents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the lab3 and lab4 contents" />
+    <MESSAGE value="Applied factory pattern to lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied factory pattern to lab3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
