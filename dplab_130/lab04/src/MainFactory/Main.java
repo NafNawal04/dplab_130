@@ -23,27 +23,20 @@ public class Main {
         System.out.println("Press the desired option: ");
         int choice = scanner.nextInt();
 
-        double price = 0.00;
-        String billingInfo = null;
-        switch(choice)
-        {
-            case 1:
-                billingInfo = beverageOptions.get(1).getBeverageDescription("");
-                price += beverageOptions.get(1).cost();
-                break;
-            case 2:
-                billingInfo = beverageOptions.get(2).getBeverageDescription("");
-                price += beverageOptions.get(2).cost();
-                break;
-            case 3:
-                System.out.println("Please order next time!");
-                System.exit(0);
-            default:
-                System.out.println("No beverage has been selected. Give a correct option!");
-                break;
 
-
+        if (choice == 3) {
+            System.out.println("Please order next time!");
+            System.exit(0);
         }
+
+        if (!beverageOptions.containsKey(choice)) {
+            System.out.println("No beverage has been selected. Give a correct option!");
+            System.out.println("Press the desired option: ");
+            choice = scanner.nextInt();
+        }
+
+        String billingInfo = beverageOptions.get(choice).getBeverageDescription("");
+        double price = beverageOptions.get(choice).cost();
 
 
         System.out.println("Choose condiments you wanna add- ");
@@ -56,46 +49,25 @@ public class Main {
         while(true)
         {
             int choice2 = scanner.nextInt();
-            switch(choice2)
-            {
-                case 1:
-                    billingInfo += condimentOptions.get(1).getCondimentDescription("");
-                    price += condimentOptions.get(1).condimentCost();
-                    break;
-                case 2:
-                    billingInfo += condimentOptions.get(2).getCondimentDescription("");
-                    price += condimentOptions.get(2).condimentCost();
-                    break;
-                case 3:
-                    billingInfo += condimentOptions.get(3).getCondimentDescription("");
-                    price += condimentOptions.get(3).condimentCost();
-                    break;
-                case 4:
-                    billingInfo += condimentOptions.get(4).getCondimentDescription("");
-                    price += condimentOptions.get(4).condimentCost();
-                    break;
-                case 5:
-                    System.out.println(billingInfo);
-                    System.out.println("Price is: " + price );
-                    System.exit(0);
 
 
-                default:
-                    System.out.println("Invalid choice! Choose again.");
-                    break;
-
-
+            if (choice2 == 5) {
+                System.out.println(billingInfo);
+                System.out.println("Price is: " + price);
+                System.exit(0);
             }
 
+            if (!condimentOptions.containsKey(choice2)) {
+                System.out.println("Invalid choice! Choose again.");
+                continue;
+            }
 
+            billingInfo += condimentOptions.get(choice2).getCondimentDescription("");
+            price += condimentOptions.get(choice2).condimentCost();
+            
 
         }
         
-        
-        
-        
-        
-
 
 
     }
