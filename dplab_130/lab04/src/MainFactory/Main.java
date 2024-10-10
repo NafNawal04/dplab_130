@@ -64,7 +64,7 @@ public class Main {
 
             billingInfo += condimentOptions.get(choice2).getCondimentDescription("");
             price += condimentOptions.get(choice2).condimentCost();
-            
+
 
         }
         
