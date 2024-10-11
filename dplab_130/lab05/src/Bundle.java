@@ -1,11 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bundle implements IProduct{
+abstract class Bundle implements IProduct{
     private String name;
     private String description;
     private double discount;
     private List<IProduct> products = new ArrayList<>();
+
+    abstract void build();
 
     public Bundle(String name, String description, double discount) {
         this.name = name;
