@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05/src/Bundle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/src/Bundle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab05/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab05/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,9 @@
       <workItem from="1727412624294" duration="85000" />
       <workItem from="1728213557421" duration="6771000" />
       <workItem from="1728558042366" duration="2540000" />
-      <workItem from="1728600706492" duration="4036000" />
+      <workItem from="1728600706492" duration="4081000" />
+      <workItem from="1729226205662" duration="668000" />
+      <workItem from="1729229410892" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728603967797</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="completed the task">
+      <option name="closed" value="true" />
+      <created>1728604956875</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728604956875</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +232,8 @@
     <MESSAGE value="Completed the decorator class and main class" />
     <MESSAGE value="Efficiently removed the switch case" />
     <MESSAGE value="added lab5 which follows composite pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lab5 which follows composite pattern" />
+    <MESSAGE value="completed the task" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed the task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
