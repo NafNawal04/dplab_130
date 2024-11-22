@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplab_130.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dplab_130.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,12 @@
       <workItem from="1728600706492" duration="4081000" />
       <workItem from="1729226205662" duration="668000" />
       <workItem from="1729229410892" duration="20000" />
+      <workItem from="1729229471764" duration="250000" />
+      <workItem from="1731009327091" duration="43000" />
+      <workItem from="1731494624735" duration="637000" />
+      <workItem from="1732253095300" duration="1714000" />
+      <workItem from="1732249424185" duration="984000" />
+      <workItem from="1732284482970" duration="6198000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -211,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728604956875</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added lab 6 of adapter pattern">
+      <option name="closed" value="true" />
+      <created>1729229671744</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729229671744</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +248,8 @@
     <MESSAGE value="Efficiently removed the switch case" />
     <MESSAGE value="added lab5 which follows composite pattern" />
     <MESSAGE value="completed the task" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed the task" />
+    <MESSAGE value="Added lab 6 of adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lab 6 of adapter pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
