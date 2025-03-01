@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lab09/src/Widgets/ConcreteWidget.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/src/Widgets/ConcreteWidget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab09/src/Widgets/Dependent/CurrentWaqt.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/src/Widgets/Dependent/CurrentWaqt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab09/src/Widgets/Dependent/NextPrayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/src/Widgets/Dependent/NextPrayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab09/src/Widgets/Dependent/WaqtTimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/src/Widgets/Dependent/WaqtTimeTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab09/src/Widgets/Independent/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/src/Widgets/Independent/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab09/src/Widgets/Independent/PrayerTimeSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab09/src/Widgets/Independent/PrayerTimeSettings.java" afterDir="false" />
+    <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="Added lab 10 (level 1 implementation)">
+      <change afterPath="$PROJECT_DIR$/../Lab08_130" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/AccountQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/BankAccountInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/BankApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/CreateAccountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/DepositCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/Transactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab10/src/WithdrawCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplab_130.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dplab_130.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "20",
-    "last_directory_selection": "C:/Users/User/Desktop/5th Semester/DP SWE 4501/dplab_130/lab09/src",
-    "last_opened_file_path": "C:/Users/User/Desktop/5th Semester/DP SWE 4501/DP Lab_210042130",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/User/Desktop/5th Semester/DP SWE 4501/dplab_130/lab09/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/5th Semester/DP SWE 4501/DP Lab_210042130&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +90,12 @@
       <workItem from="1731494624735" duration="637000" />
       <workItem from="1732253095300" duration="1714000" />
       <workItem from="1732249424185" duration="984000" />
-      <workItem from="1732284482970" duration="6777000" />
+      <workItem from="1732284482970" duration="6820000" />
+      <workItem from="1736783970156" duration="2000" />
+      <workItem from="1736856791144" duration="595000" />
+      <workItem from="1740717571581" duration="764000" />
+      <workItem from="1740720401741" duration="5509000" />
+      <workItem from="1740821194545" duration="5792000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -238,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732290797641</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added lab 9 of mediator pattern">
+      <option name="closed" value="true" />
+      <created>1732291338624</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732291338624</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +281,8 @@
     <MESSAGE value="completed the task" />
     <MESSAGE value="Added lab 6 of adapter pattern" />
     <MESSAGE value="Added lab 9 of mediator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lab 9 of mediator pattern" />
+    <MESSAGE value="Added lab 10 (level 1 implementation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lab 10 (level 1 implementation)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
