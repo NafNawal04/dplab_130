@@ -16,7 +16,7 @@ public class BankApplication {
         ICommand withdraw = new WithdrawCommand(account1, 100);
         withdraw.execute();
 
-
+        
 
 
         AccountQuery query = new AccountQuery(account1);
