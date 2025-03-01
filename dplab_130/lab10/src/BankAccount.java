@@ -9,13 +9,13 @@ public class BankAccount {
         this.accNumber = accountNumber;
         this.balance = initialBalance;
         this.transactionHistory = new ArrayList<>();
-        transactionHistory.add(new Transactions("Initial Deposit: ", initialBalance));
+        transactionHistory.add(new Transactions(TransactionType.INITIAL_BALANCE, initialBalance));
 
     }
 
     public void deposit(double amount){
         balance += amount;
-        transactionHistory.add(new Transactions("Deposit: ", amount));
+        transactionHistory.add(new Transactions(TransactionType.DEPOSIT, amount));
         System.out.println("Deposited: " + amount + ", New Balance: " + balance);
     }
 
@@ -25,7 +25,7 @@ public class BankAccount {
             return;
         }
         balance -= amount;
-        transactionHistory.add(new Transactions("Withdrawal: ", amount));
+        transactionHistory.add(new Transactions(TransactionType.WITHDRAWAL, amount));
         System.out.println("Withdrawn: " + amount + ", New Balance: " + balance);
     }
 
