@@ -38,4 +38,22 @@ public class BankAccount {
     }
 
 
+    public void transfer(BankAccount receiver, double amount) {
+
+        if (amount > balance) {
+            System.out.println("Insufficient funds for transfer.");
+            return;
+        }
+        this.balance -= amount;
+        receiver.balance += amount;
+
+        Transactions senderTransaction = new Transactions(this.accNumber, receiver.accNumber, amount);
+        Transactions receiverTransaction = new Transactions(this.accNumber, receiver.accNumber, amount);
+
+        this.transactionHistory.add(senderTransaction);
+        receiver.transactionHistory.add(receiverTransaction);
+
+        System.out.println("Transferred: " + amount + " from " + this.accNumber + " to " + receiver.accNumber);
+    }
+
 }

@@ -10,7 +10,7 @@ public class AccountQuery {
     }
 
     public void displayTransactionHistory() {
-        System.out.println("Transaction History for Account:");
+        System.out.println("Transaction History for Account:" + account.accNumber);
         for (Transactions t : account.getTransactions()) {
             System.out.println(t);
         }
