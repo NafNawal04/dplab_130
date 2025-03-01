@@ -8,7 +8,8 @@ public class BankApplication {
         createAccount2.execute();
 
 
-        BankAccount account1 = bank.getAccount("130");
+        BankAccount account1 = bank.getAccount("Nafisa130");
+        BankAccount account2 = bank.getAccount("Nafisa115");
         ICommand deposit = new DepositCommand(account1, 200);
         deposit.execute();
 
@@ -16,11 +17,16 @@ public class BankApplication {
         ICommand withdraw = new WithdrawCommand(account1, 100);
         withdraw.execute();
 
-        
+        ICommand transfer = new TransferCommand(account1,account2,200);
+        transfer.execute();
 
 
-        AccountQuery query = new AccountQuery(account1);
-        query.displayBalance();
-        query.displayTransactionHistory();
+        AccountQuery query1 = new AccountQuery(account1);
+        query1.displayBalance();
+        query1.displayTransactionHistory();
+
+        AccountQuery query2 = new AccountQuery(account2);
+        query2.displayBalance();
+        query2.displayTransactionHistory();
     }
 }

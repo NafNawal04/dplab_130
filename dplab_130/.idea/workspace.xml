@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7093b02f-8f77-4524-a3df-3e3829614e79" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab10/src/AccountQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab10/src/AccountQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab10/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab10/src/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab10/src/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab10/src/BankApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab10/src/Transactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab10/src/Transactions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -88,7 +84,7 @@
       <workItem from="1736856791144" duration="595000" />
       <workItem from="1740717571581" duration="764000" />
       <workItem from="1740720401741" duration="5509000" />
-      <workItem from="1740821194545" duration="8684000" />
+      <workItem from="1740821194545" duration="9104000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the base classes (completed in lab)">
       <option name="closed" value="true" />
@@ -266,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740839881010</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added a transfer logic in bank account">
+      <option name="closed" value="true" />
+      <created>1740840944370</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740840944370</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +297,8 @@
     <MESSAGE value="Added lab 10 (level 1 implementation)" />
     <MESSAGE value="transaction history fixed" />
     <MESSAGE value="adding transaction types for level 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding transaction types for level 2" />
+    <MESSAGE value="added a transfer logic in bank account" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a transfer logic in bank account" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
