@@ -1,3 +1,7 @@
+package Repository;
+import Repository.BankAccount;
+import Repository.Transactions;
+
 public class AccountQuery {
     public BankAccount account;
 

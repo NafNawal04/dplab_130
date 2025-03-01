@@ -1,3 +1,6 @@
+package Commands;
+import Repository.*;
+
 public class WithdrawCommand implements ICommand {
     public BankAccount account;
     public double amount;

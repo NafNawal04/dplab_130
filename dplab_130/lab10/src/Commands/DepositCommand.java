@@ -1,4 +1,7 @@
-public class DepositCommand implements ICommand{
+package Commands;
+import Repository.*;
+
+public class DepositCommand implements ICommand {
     public BankAccount account;
     public double amount;
 

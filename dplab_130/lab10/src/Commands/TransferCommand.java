@@ -1,4 +1,7 @@
-public class TransferCommand implements ICommand{
+package Commands;
+import Repository.*;
+
+public class TransferCommand implements ICommand {
     public BankAccount sender;
     public BankAccount receiver;
     public double amount;
